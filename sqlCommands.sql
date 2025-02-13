@@ -1,4 +1,5 @@
-id serial NOT NULL,
+CREATE TABLE users(
+    id serial NOT NULL,
     ceo text UNIQUE NOT NULL,
     date text
 );
